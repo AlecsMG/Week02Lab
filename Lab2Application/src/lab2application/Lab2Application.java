@@ -5,6 +5,8 @@
  */
 package lab2application;
 
+import java.util.*;
+
 /**
  *
  * @author 831690
@@ -15,6 +17,9 @@ public class Lab2Application {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Hello?");
+        String userReply = input.nextLine();
         
     }
     
