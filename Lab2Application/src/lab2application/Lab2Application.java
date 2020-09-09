@@ -30,6 +30,10 @@ public class Lab2Application {
             System.out.println("\n" + "Hello Popup!");
         }
         
+        else if (userReply.isEmpty()) {
+            System.out.println("Nobody's there... :(");
+        }
+        
     }
     
 }
