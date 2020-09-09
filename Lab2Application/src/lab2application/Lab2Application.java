@@ -31,7 +31,11 @@ public class Lab2Application {
         }
         
         else if (userReply.isEmpty()) {
-            System.out.println("Nobody's there... :(");
+            System.out.println("Nobody's there...   :(");
+        }
+        
+        else if (!userReply.toLowerCase().equals("hello")) {
+            System.out.println("That's not how you say hello!   >:(");
         }
         
     }
