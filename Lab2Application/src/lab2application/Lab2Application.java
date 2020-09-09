@@ -6,6 +6,7 @@
 package lab2application;
 
 import java.util.*;
+import javax.swing.*;
 
 /**
  *
@@ -17,9 +18,17 @@ public class Lab2Application {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        JFrame frame = new JFrame();
+        
         Scanner input = new Scanner(System.in);
         System.out.println("Hello?");
         String userReply = input.nextLine();
+        
+        if (userReply.toLowerCase().equals("hello")) {
+            System.out.println("Hello World!");
+            JOptionPane.showMessageDialog(frame, "Hello Console!");
+            System.out.println("\n" + "Hello Popup!");
+        }
         
     }
     
